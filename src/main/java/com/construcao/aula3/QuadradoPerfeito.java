@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.construcao.aula3;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo quadradoPerfeito() que verifica se um numero é ou não
+ * quadrado perfeito.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public class QuadradoPerfeito {
     

@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.construcao.aula3;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo de Soma dos primeiros números naturais
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public class SomatorioElementar {
 
@@ -16,6 +13,8 @@ public class SomatorioElementar {
      *
      * @param n - int - numero dos n primeiros numeros a serem somados
      * @return s - valor da soma
+     * @see Metodo pow() da biblioteca nativa do java.​lang.​Math. Que realiza a 
+     * potenciação
      * @throws IllegalArgumentException
      */
     public float somaNaturais(int n) throws IllegalArgumentException {

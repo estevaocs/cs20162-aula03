@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.construcao.aula3;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o metodo raiz() que calcula a raiz com de um certo grau de um 
+ * numero qualquer.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public class RaizQuadrada {
    
@@ -16,11 +14,11 @@ public class RaizQuadrada {
      *
      * @param n - numero a ser extraida a raiz
      * @param i - grau da raiz
-     * @return raiz
+     * @return raiz - double
      * @throws IllegalArgumentException
      */
-    public float raiz(int n, int i) throws IllegalArgumentException {
-        float r;
+    public double raiz(int n, int i) throws IllegalArgumentException {
+        double r;
 
         if(n <= 0) {
             throw new IllegalArgumentException("o numero tem que ser maior"
